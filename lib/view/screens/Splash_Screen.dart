@@ -16,10 +16,10 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
 
     // yaha function hai next page pr jane k lie timer waa
-    Future.delayed(Duration(seconds: 27), () {
+    Future.delayed(const Duration(seconds: 22), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (_) => SelectRadiusScreen()),
+        MaterialPageRoute(builder: (_) => const SelectRadiusScreen()),
       );
     });
   }
