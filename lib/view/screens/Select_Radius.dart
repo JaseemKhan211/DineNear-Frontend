@@ -46,22 +46,13 @@ class _SelectRadiusScreenState extends State<SelectRadiusScreen> {
                       children: [
                         Text('Select Your Area',
                             style: TextStyle(color: AppColor.whiteColor)),
-                        Container(
-                          decoration: BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: BorderRadius.circular(10)),
-                          child: DropdownButton(
-                            onChanged: null,
-                            items: [
-                              DropdownMenuItem(
-                                  child: Text('Area Lists',
-                                      style: TextStyle(
-                                          color: AppColor.primaryColor)))
-                            ],
-                            dropdownColor: AppColor.whiteColor,
-                            icon: Icon(Icons.arrow_drop_down),
-                          ),
-                        ),
+                        // Container(
+                        //   decoration: BoxDecoration(
+                        //       color: Colors.white,
+                        //       borderRadius: BorderRadius.circular(10)),
+                        //   // Yahan wo dropdown wala pura widget call hoga
+                        //   child: SelectRadiusDropdown(),
+                        // ),
                         ElevatedButton(
                           onPressed: () {},
                           style: ElevatedButton.styleFrom(
