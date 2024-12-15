@@ -3,7 +3,8 @@
 import 'package:dinenear_app/resources/customwidgets/Nav_Bar.dart';
 import 'package:flutter/material.dart';
 
-import '../../resources/colors.dart';
+import '../../resources/colors/colors.dart';
+
 
 class SelectRadiusScreen extends StatefulWidget {
   const SelectRadiusScreen({super.key});
