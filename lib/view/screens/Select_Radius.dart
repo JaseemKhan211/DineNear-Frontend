@@ -19,11 +19,11 @@ class _SelectRadiusScreenState extends State<SelectRadiusScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: AppColor.primaryColor,
+          backgroundColor: AppColor.btnColor,
           centerTitle: true,
           title: Text(
             'Select Radius',
-            style: TextStyle(color: AppColor.textWhiteColor),
+            style: TextStyle(color: AppColor.whiteColor),
           ),
           automaticallyImplyLeading: false,
         ),
@@ -40,7 +40,7 @@ class _SelectRadiusScreenState extends State<SelectRadiusScreen> {
                     height: MediaQuery.of(context).size.height * 0.5,
                     width: MediaQuery.of(context).size.width * 1,
                     decoration: BoxDecoration(
-                        color: AppColor.primaryColor,
+                        color: AppColor.btnColor,
                         borderRadius: BorderRadius.circular(20)),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -61,7 +61,7 @@ class _SelectRadiusScreenState extends State<SelectRadiusScreen> {
                             iconColor: AppColor.whiteColor,
                           ),
                           child: Text('Submit',
-                              style: TextStyle(color: AppColor.primaryColor)),
+                              style: TextStyle(color: AppColor.btnColor)),
                         ),
                       ],
                     ),

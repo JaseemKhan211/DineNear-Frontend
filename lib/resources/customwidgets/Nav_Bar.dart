@@ -33,41 +33,41 @@ class NavBarState extends State<NavBar> {
         animationDuration: const Duration(milliseconds: 200),
         backgroundColor: AppColor.transparentColor,
         buttonBackgroundColor: AppColor.transparentColor,
-        color: AppColor.primaryColor,
+        color: AppColor.btnColor,
         items: [
           Icon(
             Icons.home_outlined,
             size: 30,
             color: selectedIndex == 0
-                ? AppColor.primaryColor
+                ? AppColor.btnColor
                 : AppColor.whiteColor,
           ),
           Icon(
             CupertinoIcons.line_horizontal_3,
             size: 30,
             color: selectedIndex == 1
-                ? AppColor.primaryColor
+                ? AppColor.btnColor
                 : AppColor.whiteColor,
           ),
           Icon(
             Icons.add_outlined,
             size: 30,
             color: selectedIndex == 2
-                ? AppColor.primaryColor
+                ? AppColor.btnColor
                 : AppColor.whiteColor,
           ),
           Icon(
             Icons.notifications_outlined,
             size: 30,
             color: selectedIndex == 3
-                ? AppColor.primaryColor
+                ? AppColor.btnColor
                 : AppColor.whiteColor,
           ),
           Icon(
             Icons.location_on_outlined,
             size: 30,
             color: selectedIndex == 4
-                ? AppColor.primaryColor
+                ? AppColor.btnColor
                 : AppColor.whiteColor,
           ),
         ],
