@@ -1,7 +1,6 @@
 # DineNear App 🍔 - Restaurant Finder
 
-DineNear is a mobile application project powered by a robust backend built with Node.js and Express.js. It serves as the backbone of the Flutter-based mobile app, efficiently managing restaurant radius calculations and related data. The backend leverages MongoDB for scalable and reliable data storage, ensuring seamless performance.
-
+DineNear is a mobile application developed as part of my 6th-semester Mobile & Web Application Development course. This app helps users find nearby restaurants, explore menus, and read reviews, all with a simple and responsive interface. Built using Flutter for the frontend, with Node.js API handling, and MongoDB for the database, DineNear brings an efficient solution for discovering local dining options. Currently under development, I’m excited to launch it soon and share it with the world! 🚀
 
 ### Built With
 
